@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{background-image: url(https://images.wallpaperscraft.com/image/barcelona_spain_football_club_sports_logo_25996_1920x1200.jpg);
+    height: 1000px;}
+   
+    .left{
+     
+      display: inline-block;
+        position: absolute;
+        left:0.5cm;
+        top:15px; 
+        position: fixed;
+        text-align: center;
+
+    }
+    .left img{
+        width: 1cm;
+    }
+    .left div{
+        text-align: center;
+        font-family: cursive;
+        color: whitesmoke;
+    }
+    .mid{
+    display:block;
+   border-radius: 3px;
+    width: 36%;
+    margin : 5px auto;
+    top:20px;
+    
+    }
+    .right{
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top:20px;
+    }
+    .right div{
+        color: rgb(0, 0, 0);
+        background-color: black;
+       
+        padding: 3px 4px;
+        position: fixed;
+
+    }
+    .navbar{
+        display: inline-block;
+       
+    }
+    .navbar li{
+        display: inline-block;
+        border: solid 3px;
+        border-radius: 20px;
+        background-color: grey;
+        font-weight: bold;
+        font-family:cursive;
+        
+
+       
+        
+    }
+    .navbar li a{
+        color: white;
+        
+        text-decoration: none;
+        padding: 10px 10px 10px 10px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        background-color: black;
+        color: lawngreen;}
+        .container{color: white;
+        border: 2px white solid;
+        background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           padding: 5px 5px;
+            margin-left:3cm;
+            width: 33%;}
+            .container h4{
+                font-size: 1cm;
+                font-weight: bolder;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+           
+        .container div form div{
+            padding: 18px 58px 3px 89px;
+            
+        }
+        #item2 input{
+            color: turquoise;
+            border-radius: 23px;
+            background-color:black;
+            height: 0.7cm;
+            width: 3.5cm;
+            font-family: cursive;
+            font-weight: bold;
+            
+
+        }
+        #item2 input:hover{
+           
+            color:white;
+        }
+        .messi{
+            height: 450px;
+            width: 100%;
+            
+            display: flex;
+            flex-direction:row-reverse;
+
+        }
+        .abc{
+            
+            
+            padding: 10px;
+            width: 240px;
+            margin:50px;
+            
+        }
+        .abc img{
+            height:175px;
+            width:150px;
+
+        }
+     
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+         <img src="http://pngimg.com/uploads/fcb_logo/fcb_logo_PNG24.png" alt="">
+         <div>Barcelona</div>
+            
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+            <li ><a href="#"class="active">Home</a></li >
+            <li ><a href="#">About Us</a></li >
+            <li ><a href="#">Services</a></li >
+            <li ><a href="#">Contact us</a></li >
+        </ul>
+
+
+        </div>
+        <div class="right">
+            <div>
+                <input type="text"name="search"id="search"placeholder="search this website">
+            </div>
+
+        </div>
+    </header>
+    <div class="container"><h4>Do Register now!</h4>
+        <div class="item" id="item1">
+            <form action="backend.php">
+                <div>NAME:<input type="text"placeholder="Enter your name"></div>
+                <div>E-mail:<input type="text"placeholder="E-mail"></div>
+                <div>Mobile:<input type="text"placeholder="mobile"></div>
+                
+                
+                
+        <div class="item" id="item2">
+            <input type="submit" value="Register">
+            <input type="submit"value="Help">
+            
+           
+
+        </div>
+              
+
+            </form>
+        </div>
+         
+
+    </div>
+    <div class="messi">
+        <div class="abc" id="item4"><img src="http://pngimg.com/uploads/fcb_logo/small/fcb_logo_PNG8.png" alt="error"><div>gggggg</div></div>
+        <div class="abc" id="item5"><img src="https://assets.laliga.com/assets/logos/laliga-v/laliga-v-300x300.png" alt=""></div>
+        <div class="abc" id="item6"><img src="http://assets.stickpng.com/images/584a9b47b080d7616d298778.png" alt=""></div>
+        <div class="abc" id="item7"><img src="http://assets.stickpng.com/images/584ad291b519ea740933a8ba.png" alt=""></div>
+        
+        
+    </div>
+
+</body>
+</html>
